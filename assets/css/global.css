@@ -1,0 +1,22 @@
+@font-face {
+    font-family: "TheTelegraphBold";
+    src: url("assets/fonts/TheTelegraphBold.ttf") format("truetype");
+}
+
+body {
+    font-family: sans-serif;
+    background-color: lightgray;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "TheTelegraphBold";
+    color: #000;
+}
+
+p {
+    color: #000;
+}
+
+::selection {
+    background-color: gray;
+}
