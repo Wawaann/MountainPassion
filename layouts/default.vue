@@ -13,24 +13,12 @@
 <script>
 
 export default {
-  mounted() {
-    window.addEventListener('scroll', this.handleScroll);
-  },
   methods: {
     scrollToTop() {
       window.scrollTo({
         top: 0,
         behavior: "smooth"
       })
-    },
-    handleScroll() {
-      const fixedButton = document.getElementById('my-fixed-button');
-      if (document.documentElement.scrollTop > 250) {
-        fixedButton.style.visibility = 'visible';
-      }
-      else {
-        fixedButton.style.visibility = 'hidden';
-      }
     },
   },
 }

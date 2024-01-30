@@ -1,93 +1,116 @@
 <template>
-  <section class="flex flex-col flex-wrap justify-center items-center w-full">
-    <div class="flex justify-between gap-4 px-32 py-48">
-      <div class="h-auto flex flex-col justify-around text-left" data-aos="fade-right" data-aos-delay="300">
-        <div class="w-fit">
-          <h1 class="text-6xl">Climb the highest peak.</h1>
-          <hr class="border-2 border-black w-2/3 my-2">
+  <section>
+    <div class="flex flex-col gap-12 py-36">
+      <div class="flex justify-center gap-1">
+        <div class="mt-20" data-aos="fade-right" data-aos-delay="300">
+          <NuxtImg fit="cover" src="/img/mountains/Alps/2.jpg" class="rounded-xl shadow-xl" quality="100" height="325"
+            width="425" />
         </div>
-        <div class="w-4/5">
-          <p class="text-justify indent-8 text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum harum
-            omnis magnam
-            expedita, nemo quisquam debitis hic quasi ut esse animi nobis suscipit ab, ratione laudantium! Vel fugit
-            aperiam reiciendis. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet, consectetur
-            adipisicing elit. Officia sint, asperiores recusandae dolor odio culpa! Quia laudantium ducimus,
-            necessitatibus accusantium culpa mollitia voluptatum ipsum, unde fugiat eos, suscipit incidunt ut. Lorem ipsum
-            dolor sit amet consectetur adipisicing elit. Tenetur minima et vitae sit optio rerum repudiandae laudantium
-            labore maxime consectetur praesentium laboriosam quia quod nihil qui alias, fuga recusandae ullam?</p>
+        <div class="" data-aos="fade-up" data-aos-delay="300">
+          <NuxtImg fit="cover" src="/img/mountains/Pyrenees/2.jpg" class="rounded-xl shadow-xl" quality="100" height="325"
+            width="425" />
         </div>
-        <NuxtLink to="/mountains/Bunderspitz"
-          class="text-white bg-slate-500/65 py-4 px-4 w-fit rounded-full transition-all ease-in hover:bg-slate-500">Read
-          more...
-        </NuxtLink>
+        <div class="mt-20" data-aos="fade-down" data-aos-delay="300">
+          <NuxtImg fit="cover" src="/img/mountains/Jura/1.jpg" class="rounded-xl shadow-xl" quality="100" height="325"
+            width="425" />
+        </div>
+        <div class="" data-aos="fade-left" data-aos-delay="300">
+          <NuxtImg fit="cover" src="/img/mountains/Vosges/1.jpg" class="rounded-xl shadow-xl" quality="100" height="325"
+            width="425" />
+        </div>
       </div>
-      <NuxtImg fit="cover" quality="100" src="/img/mountains/Bunderspitz/1.jpg" class="rounded-xl shadow-xl" width="600"
-        height="675" data-aos="fade-left" data-aos-delay="300" />
+      <div class="flex flex-col px-32">
+        <div class="flex flex-col w-fit" data-aos="fade-right" data-aos-delay="300">
+          <h1 class="text-6xl">Découvrez la France sous un nouveau jour.</h1>
+          <hr class="border-2 border-black w-3/4 my-2">
+        </div>
+        <div class="flex justify-around gap-2 py-12" data-aos="fade-up" data-aos-delay="300">
+          <p class="text-lg text-justify w-5/12">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi aut esse
+            ducimus. Qui
+            minima voluptatibus ducimus incidunt hic quo aliquam tempora odio. Excepturi, praesentium perferendis quasi
+            quo nemo quisquam commodi! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto id debitis
+            repellat exercitationem eligendi quia adipisci, dicta repellendus impedit praesentium nihil quaerat, odio
+            nostrum aliquid blanditiis deserunt atque possimus eaque? Lorem ipsum dolor sit, amet consectetur adipisicing
+            elit. Praesentium quasi inventore veritatis, dicta animi rerum distinctio saepe nobis nihil aperiam totam aut
+            ullam deleniti libero? Alias dolor voluptatibus veniam fuga? Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Ullam, suscipit consequuntur. Iure, distinctio incidunt rerum, velit modi est repellat ipsum
+            nesciunt dignissimos necessitatibus esse rem quis assumenda reiciendis natus quaerat! Lorem ipsum dolor sit
+            amet consectetur, adipisicing elit. Sint similique molestiae, voluptate quis consequatur nisi ut sed, odio
+            aperiam eligendi cum voluptas ipsum atque dolor natus eum eaque. Dolore, quidem.</p>
+          <p class="text-lg text-justify w-5/12">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non ducimus
+            omnis voluptate, eligendi quasi labore et facilis nemo ex neque numquam dolorum eum, ea tenetur iste velit
+            voluptatibus facere expedita! Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga minus, quis amet
+            consectetur et veniam, dolore ut mollitia eius ab facilis eveniet beatae, quisquam veritatis quasi animi
+            accusantium unde rerum. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis non perspiciatis
+            laboriosam necessitatibus veniam quis deserunt. Labore consectetur ut harum delectus atque laboriosam ad?
+            Atque, deserunt! Iste at natus veritatis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
+            accusantium ducimus a hic optio animi ea sit repudiandae! Accusamus labore incidunt consequatur, assumenda
+            repellendus earum saepe dolore. Quam, quibusdam voluptate. Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Iste culpa sunt ipsam nobis corrupti officia et explicabo pariatur qui delectus adipisci laboriosam,
+            ipsum magnam sed accusamus dolorum vel enim alias.</p>
+        </div>
+      </div>
     </div>
   </section>
 
   <hr class="border-black mx-36">
 
-  <div class="flex justify-around px-20 py-36">
-    <div>
-      <NuxtImg fit="cover" quality="100" src="/img/home/climb.jpg" class="rounded-xl shadow-xl" width="800"
-        height="550" data-aos="fade-right" data-aos-delay="300" />
-    </div>
-    <div class="flex flex-col items-end gap-12 w-1/2" data-aos="fade-left" data-aos-delay="300">
-      <div class="flex flex-col items-end w-fit">
-        <h1 class="text-6xl">Discover the world.</h1>
-        <hr class="border-2 border-black w-2/3 mt-2">
-      </div>
-      <div class="w-4/5">
-        <p class="text-justify indent-8 text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum harum
-          omnis magnam expedita, nemo quisquam debitis hic quasi ut esse animi nobis suscipit ab, ratione laudantium!
-          Vel fugit aperiam reiciendis. Lorem ipsum dolor sit amet consectetur. Lorem ipsum, dolor sit amet consectetur
-          adipisicing elit. Eaque facere earum vitae enim voluptas voluptates vel, minima neque commodi ab temporibus?
-          Quae ipsa, autem non commodi nulla mollitia illum laborum. Lorem ipsum dolor sit amet, consectetur adipisicing
-          elit. Accusamus, quae. Aliquam laboriosam exercitationem dicta, sapiente praesentium magnam nam pariatur! Vero
-          natus quibusdam ullam. Dolore, quae? Totam corrupti sed aliquid sint? Lorem ipsum, dolor sit amet consectetur
-          adipisicing elit. Impedit autem repellat modi assumenda ducimus quisquam, dolorem dolor veniam nostrum
-          voluptate magnam rem labore aperiam dignissimos pariatur. Iure incidunt repellendus ipsa?</p>
-      </div>
-      <NuxtLink to="#"
-        class="text-white bg-slate-500/65 py-4 px-4 w-fit rounded-full transition-all ease-in hover:bg-slate-500">Read
-        more...
-      </NuxtLink>
-    </div>
-  </div>
-
-  <hr class="border-black mx-36">
-
-  <section class="flex flex-col flex-wrap justify-center items-center w-full">
-    <div class="flex justify-between gap-4 px-32 py-48">
+  <section>
+    <div class="flex justify-between gap-4 px-32 py-36">
       <div class="h-auto flex flex-col justify-around text-left" data-aos="fade-right" data-aos-delay="300">
         <div class="w-fit">
-          <h1 class="text-6xl">Unveil new heights.</h1>
+          <h1 class="text-6xl">Découvrez les Pyrénées.</h1>
           <hr class="border-2 border-black w-2/3 my-2">
         </div>
         <div class="w-4/5">
           <p class="text-justify indent-8 text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum harum
-            omnis magnam
-            expedita, nemo quisquam debitis hic quasi ut esse animi nobis suscipit ab, ratione laudantium! Vel fugit
-            aperiam reiciendis. Lorem ipsum dolor sit amet consectetur. Lorem ipsum, dolor sit amet consectetur
+            omnis magnam expedita, nemo quisquam debitis hic quasi ut esse animi nobis suscipit ab, ratione laudantium!
+            Vel fugit aperiam reiciendis. Lorem ipsum dolor sit amet consectetur. Lorem ipsum, dolor sit amet consectetur
             adipisicing elit. Eaque facere earum vitae enim voluptas voluptates vel, minima neque commodi ab temporibus?
             Quae ipsa, autem non commodi nulla mollitia illum laborum.</p>
         </div>
-        <NuxtLink to="#"
+        <NuxtLink to="/mountains/Pyrenees"
           class="text-white bg-slate-500/65 py-4 px-4 w-fit rounded-full transition-all ease-in hover:bg-slate-500">Read
           more...
         </NuxtLink>
       </div>
-      <NuxtImg fit="cover" quality="100" src="/img/home/explore.jpg" class="rounded-xl shadow-xl" width="750" height="550"
-        data-aos="fade-left" data-aos-delay="300" />
+      <NuxtImg fit="cover" quality="100" src="/img/mountains/Pyrenees/1.jpg" class="rounded-xl shadow-xl" width="750"
+        height="550" data-aos="fade-left" data-aos-delay="300" />
     </div>
   </section>
+
+  <section>
+    <div class="flex justify-around px-32 py-36">
+      <div>
+        <NuxtImg fit="cover" quality="100" src="/img/mountains/Alps/1.jpg" class="rounded-xl shadow-xl" width="800"
+          height="550" data-aos="fade-right" data-aos-delay="300" />
+      </div>
+      <div class="flex flex-col items-end gap-12 w-1/2" data-aos="fade-left" data-aos-delay="300">
+        <div class="flex flex-col items-end w-fit">
+          <h1 class="text-6xl">Contemplez les Alpes.</h1>
+          <hr class="border-2 border-black w-2/3 mt-2">
+        </div>
+        <div class="w-4/5">
+          <p class="text-justify indent-8 text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum harum
+            omnis magnam expedita, nemo quisquam debitis hic quasi ut esse animi nobis suscipit ab, ratione laudantium!
+            Vel fugit aperiam reiciendis. Lorem ipsum dolor sit amet consectetur. Lorem ipsum, dolor sit amet consectetur
+            adipisicing elit. Eaque facere earum vitae enim voluptas voluptates vel, minima neque commodi ab temporibus?
+            Quae ipsa, autem non commodi nulla mollitia illum laborum. Lorem ipsum dolor sit amet, consectetur adipisicing
+            elit. Accusamus, quae. Aliquam laboriosam exercitationem dicta, sapiente praesentium magnam nam pariatur! Vero
+            natus quibusdam ullam. Dolore, quae? Totam corrupti sed aliquid sint? Lorem ipsum, dolor sit amet consectetur
+            adipisicing elit. Impedit autem repellat modi assumenda ducimus quisquam, dolorem dolor veniam nostrum
+            voluptate magnam rem labore aperiam dignissimos pariatur. Iure incidunt repellendus ipsa?</p>
+        </div>
+        <NuxtLink to="/mountains/Alps"
+          class="text-white bg-slate-500/65 py-4 px-4 w-fit rounded-full transition-all ease-in hover:bg-slate-500">Read
+          more...
+        </NuxtLink>
+      </div>
+    </div>
+  </section>
+
+  <hr class="border-black mx-36">
 </template>
-
-<script>
-
-
-</script>
 
 <style scoped>
 .bg-img {
