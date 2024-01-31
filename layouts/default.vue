@@ -25,7 +25,12 @@ export default {
 
 </script>
 
-<style scoped>
+<style>
+
+body {
+  overflow-x: hidden;
+}
+
 .my-fixed-button {
   visibility: visible;
   z-index: 100;
