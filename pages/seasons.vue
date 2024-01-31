@@ -11,7 +11,8 @@
         </div>
       </div>
       <div class="flex justify-around gap-12 px-8" data-aos="fade-up" data-aos-delay="300">
-        <p class="text-lg text-justify indent-10 w-1/2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi aut esse
+        <p class="text-lg text-justify indent-10 w-1/2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+          aut esse
           ducimus. Qui minima voluptatibus ducimus incidunt hic quo aliquam tempora odio. Excepturi, praesentium
           perferendis quasi quo nemo quisquam commodi! Lorem ipsum, dolor sit amet consectetur adipisicing elit.
           Architecto id debitis repellat exercitationem eligendi quia adipisci, dicta repellendus impedit praesentium
@@ -21,7 +22,8 @@
           consequatur, assumenda repellendus earum saepe dolore. Quam, quibusdam voluptate. Lorem ipsum dolor sit amet
           consectetur adipisicing elit. Inventore possimus laudantium nam dolores, cumque voluptas, sit magnam deserunt
           officia nulla odit molestias velit laborum ab similique reprehenderit quisquam voluptatum est?</p>
-        <p class="text-lg text-justify indent-10 w-1/2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non ducimus
+        <p class="text-lg text-justify indent-10 w-1/2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non
+          ducimus
           omnis voluptate, eligendi quasi labore et facilis nemo ex neque numquam dolorum eum, ea tenetur iste velit
           voluptatibus facere expedita! Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga minus, quis amet
           consectetur et veniam, dolore ut mollitia eius ab facilis eveniet beatae, quisquam veritatis quasi animi
@@ -38,14 +40,71 @@
   <hr class="border-black mx-36 my-4">
 
   <section>
-    <div class="flex justify-center items-center gap-24">
-      <button class="bg-gray-500/50 w-36 h-12 text-white text-xl font-[telegraph] rounded-full transition-colors duration-200 hover:bg-gray-500/75">Pritemps</button>
-      <button class="bg-gray-500/50 w-36 h-12 text-white text-xl font-[telegraph] rounded-full transition-colors duration-200 hover:bg-gray-500/75">Été</button>
-      <button class="bg-gray-500/50 w-36 h-12 text-white text-xl font-[telegraph] rounded-full transition-colors duration-200 hover:bg-gray-500/75">Automne</button>
-      <button class="bg-gray-500/50 w-36 h-12 text-white text-xl font-[telegraph] rounded-full transition-colors duration-200 hover:bg-gray-500/75">Hiver</button>
+    <div class="flex justify-center items-center gap-24 py-12">
+      <button
+        class="bg-gray-500/50 w-36 h-12 text-white text-xl font-[telegraph] rounded-full transition-colors duration-200 hover:bg-gray-500/75"
+        @click="onSpring" data-aos="fade-right" data-aos-delay="250">Pritemps</button>
+      <button
+        class="bg-gray-500/50 w-36 h-12 text-white text-xl font-[telegraph] rounded-full transition-colors duration-200 hover:bg-gray-500/75"
+        @click="onSummer" data-aos="fade-right" data-aos-delay="250">Été</button>
+      <button
+        class="bg-gray-500/50 w-36 h-12 text-white text-xl font-[telegraph] rounded-full transition-colors duration-200 hover:bg-gray-500/75"
+        @click="onAutumn" data-aos="fade-left" data-aos-delay="250">Automne</button>
+      <button
+        class="bg-gray-500/50 w-36 h-12 text-white text-xl font-[telegraph] rounded-full transition-colors duration-200 hover:bg-gray-500/75"
+        @click="onWinter" data-aos="fade-left" data-aos-delay="250">Hiver</button>
     </div>
+
+    <Spring v-if="Spring" />
+
+    <Summer v-if="Summer" />
+
+    <Autumn v-if="Autumn" />
+
+    <Winter v-if="Winter" />
 
     <!-- Compoenent contenant une saisons, a switch avec button -->
   </section>
-
 </template>
+
+<script>
+
+export default {
+  data() {
+    return {
+      Spring: true,
+      Summer: false,
+      Autumn: false,
+      Winter: false,
+    }
+  },
+  methods: {
+    onSpring() {
+      this.Spring = true;
+      this.Summer = false;
+      this.Autumn = false;
+      this.Winter = false;
+    },
+    onSummer() {
+      this.Spring = false;
+      this.Summer = true;
+      this.Autumn = false;
+      this.Winter = false;
+    },
+    onAutumn() {
+      this.Spring = false;
+      this.Summer = false;
+      this.Autumn = true;
+      this.Winter = false;
+    },
+    onWinter() {
+      this.Spring = false;
+      this.Summer = false;
+      this.Autumn = false;
+      this.Winter = true;
+    },
+  }
+}
+
+
+</script>
