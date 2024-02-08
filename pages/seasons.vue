@@ -1,13 +1,13 @@
 <template>
   <section>
-    <div class="flex flex-col gap-20 px-36 py-36">
+    <div class="flex flex-col gap-20 px-28 py-28">
       <div class="flex justify-between items-center">
         <div class="flex flex-col w-fit" data-aos="fade-right" data-aos-delay="300">
-          <h1 class="text-6xl">La nature à travers le temps</h1>
+          <h1 class="text-5xl">La nature à travers le temps</h1>
           <hr class="border-2 border-black w-2/3">
         </div>
         <div data-aos="fade-left" data-aos-delay="300">
-          <NuxtImg src="/img/mountains/Jura/2.jpg" class="rounded-xl shadow-xl" quality="100" height="200" width="750" />
+          <NuxtImg src="/img/mountains/Jura/2.jpg" class="rounded-xl shadow-xl" quality="100" height="200" width="650" />
         </div>
       </div>
       <div class="flex justify-around gap-12 px-8" data-aos="fade-up" data-aos-delay="300">
@@ -20,8 +20,7 @@
           consectetur adipisicing elit. Praesentium quasi inventore veritatis, dicta animi rerum distinctio saepe nobis
           nihil aperiam totam aut ullam deleniti libero? Alias dolor voluptatibus veniam fuga? Accusamus labore incidunt
           consequatur, assumenda repellendus earum saepe dolore. Quam, quibusdam voluptate. Lorem ipsum dolor sit amet
-          consectetur adipisicing elit. Inventore possimus laudantium nam dolores, cumque voluptas, sit magnam deserunt
-          officia nulla odit molestias velit laborum ab similique reprehenderit quisquam voluptatum est?</p>
+          consectetur adipisicing elit. Inventore possimus laudantium nam dolores.</p>
         <p class="text-lg text-justify indent-10 w-1/2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non
           ducimus
           omnis voluptate, eligendi quasi labore et facilis nemo ex neque numquam dolorum eum, ea tenetur iste velit
@@ -30,9 +29,7 @@
           accusantium unde rerum. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis non perspiciatis
           laboriosam necessitatibus veniam quis deserunt. Labore consectetur ut harum delectus atque laboriosam ad?
           Atque, deserunt! Iste at natus veritatis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
-          accusantium ducimus a hic optio animi ea sit repudiandae! Lorem ipsum dolor sit amet consectetur adipisicing
-          elit. Laboriosam praesentium magni eligendi voluptatem possimus at quia ab quidem, ad, necessitatibus id animi
-          assumenda nulla, explicabo pariatur unde vero aut eius.</p>
+          accusantium ducimus a hic optio animi ea sit repudiandae!</p>
       </div>
     </div>
   </section>
@@ -55,15 +52,14 @@
         @click="onWinter" data-aos="fade-left" data-aos-delay="250">Hiver</button>
     </div>
 
-    <Spring v-if="Spring" />
+    <Spring v-if="Spring" data-aos="fade-left" data-aos-delay="300" />
 
-    <Summer v-if="Summer" />
+    <Summer v-if="Summer" data-aos="fade-left" data-aos-delay="300" />
 
-    <Autumn v-if="Autumn" />
+    <Autumn v-if="Autumn" data-aos="fade-left" data-aos-delay="300" />
 
-    <Winter v-if="Winter" />
+    <Winter v-if="Winter" data-aos="fade-left" data-aos-delay="300" />
 
-    <!-- Compoenent contenant une saisons, a switch avec button -->
   </section>
 </template>
 
