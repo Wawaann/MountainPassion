@@ -52,7 +52,7 @@
   <hr class="border-black mx-36">
 
   <section>
-    <div class="flex justify-between gap-4 px-32 py-36">
+    <div class="flex justify-between gap-4 px-32 py-28">
       <div class="h-auto flex flex-col justify-around text-left" data-aos="fade-right" data-aos-delay="300">
         <div class="w-fit">
           <h1 class="text-5xl">Découvrez les Pyrénées.</h1>
@@ -76,7 +76,7 @@
   </section>
 
   <section>
-    <div class="flex justify-around px-32 py-36">
+    <div class="flex justify-around px-32 py-28">
       <div>
         <NuxtImg fit="cover" quality="100" src="/img/mountains/Alps/1.jpg" class="rounded-xl shadow-xl" width="650"
           height="500" data-aos="fade-right" data-aos-delay="300" />

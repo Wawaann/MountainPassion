@@ -3,15 +3,15 @@
     <div class="py-28 px-26">
       <div class="flex justify-center gap-1 ">
         <div class="mt-24">
-          <NuxtImg fit="cover" quality="100" src="/img/mountains/landscape/1.jpg" class="rounded-xl shadow-xl" width="475"
+          <NuxtImg fit="cover" quality="100" src="/img/mountains/Pyrenees/4.jpg" class="rounded-xl shadow-xl" width="475"
             height="325" data-aos="fade-right" data-aos-delay="300" />
         </div>
         <div class="">
-          <NuxtImg fit="cover" quality="100" src="/img/mountains/landscape/2.jpg" class="rounded-xl shadow-xl" width="475"
+          <NuxtImg fit="cover" quality="100" src="/img/mountains/Bunderspitz/3.jpg" class="rounded-xl shadow-xl" width="475"
             height="325" data-aos="fade-down" data-aos-delay="300" />
         </div>
         <div class="mt-24">
-          <NuxtImg fit="cover" quality="100" src="/img/mountains/landscape/3.jpg" class="rounded-xl shadow-xl" width="475"
+          <NuxtImg fit="cover" quality="100" src="/img/mountains/Alps/3.jpg" class="rounded-xl shadow-xl" width="475"
             height="325" data-aos="fade-up" data-aos-delay="300" />
         </div>
       </div>
