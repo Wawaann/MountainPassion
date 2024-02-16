@@ -104,35 +104,3 @@
 
   <hr class="border-black mx-36">
 </template>
-
-<style scoped>
-.bg-img {
-  background-image: url('/img/mountains/1.jpg');
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-}
-
-.my-container {
-  display: flex;
-  justify-content: space-around;
-  height: 60vh;
-  margin-left: 7rem;
-  margin-right: 7rem;
-  margin-top: 10rem;
-  margin-bottom: 20rem;
-}
-
-/* CA MARCHE PAS !!! */
-.animated {
-  padding: 0;
-}
-
-.fadeInRight {
-  transform: translateX(0);
-  transition: all;
-  transition-duration: 75ms;
-}
-
-/*  CA MARCHE PAS !!! */
-</style>
